@@ -129,7 +129,7 @@ async function handleMessages(threads, callback) {
       const type = msg.item_type;
 
       // Print out the message type, details and user for debugging purposes.
-      // console.log(type, msg, user.username);
+       console.log(type, msg, user.username);
 
       const converted = await convertMessage(type, msg);
 
